@@ -1,7 +1,3 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
-// variables for: save button, textarea, date
 
 // global variable list
 var currentDay = $("#currentDay");
@@ -97,6 +93,12 @@ saveButton.on("click", function() {
   localStorage.setItem(id, textInput);
   console.log(textInput);
 });
+
+// button in header will clear all the input text that has been saved
+$("#clearAll").on("click", function() {
+  localStorage.clear();
+  location.reload();
+})
 
 // runs the function to progress the time color coding
 timeProgress();
