@@ -12,10 +12,6 @@ textarea {
   padding: 10px;
 }
 
-textarea:focus {
-  border: 1px solid black;
-}
-
 textarea:hover {
   border: 1px solid black;
   cursor: auto;
