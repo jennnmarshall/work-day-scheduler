@@ -72,3 +72,8 @@ textarea:hover {
   background-color: #06aed5;
   color: white;
 }
+
+#clearAll:hover {
+  color:#323232;
+  transition: all 0.3s ease-in-out;
+}
