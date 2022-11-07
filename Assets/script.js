@@ -104,13 +104,13 @@ $("#clearAll").on("click", function() {
 timeProgress();
 
 // sets the matching elements to the value saved in the keys in local storage
-$("#hour-9 #textInput").val(localStorage.getItem("hour-9"));
-$("#hour-10 #textInput").val(localStorage.getItem("hour-10"));
-$("#hour-11 #textInput").val(localStorage.getItem("hour-11"));
-$("#hour-12 #textInput").val(localStorage.getItem("hour-12"));
-$("#hour-13 #textInput").val(localStorage.getItem("hour-13"));
-$("#hour-14 #textInput").val(localStorage.getItem("hour-14"));
-$("#hour-15 #textInput").val(localStorage.getItem("hour-15"));
-$("#hour-16 #textInput").val(localStorage.getItem("hour-16"));
-$("#hour-17 #textInput").val(localStorage.getItem("hour-17"));
+$("#hour-9 #textInput").text(localStorage.getItem("hour-9"));
+$("#hour-10 #textInput").text(localStorage.getItem("hour-10"));
+$("#hour-11 #textInput").text(localStorage.getItem("hour-11"));
+$("#hour-12 #textInput").text(localStorage.getItem("hour-12"));
+$("#hour-13 #textInput").text(localStorage.getItem("hour-13"));
+$("#hour-14 #textInput").text(localStorage.getItem("hour-14"));
+$("#hour-15 #textInput").text(localStorage.getItem("hour-15"));
+$("#hour-16 #textInput").text(localStorage.getItem("hour-16"));
+$("#hour-17 #textInput").text(localStorage.getItem("hour-17"));
 
